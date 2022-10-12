@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Calculator</title>
+    <link rel="stylesheet" type="text/css" href="style/index.css">
+    <script src="script/script.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="title">
+            <h3>Simple Calculator</h3>
+        </div>
+        <div class="cal-container">
+            <div class="row">
+                <div class="grid-text">
+                    <p class="textField" id="output"></p>
+                </div>
+                <!-- CalculatorKeypad - Starts -->
+                <div class="grid-0">
+                    <button class="primary-btn" onclick="sendNum('0')">0</button>
+                    <button class="primary-btn" onclick="sendNum('1')">1</button>
+                    <button class="primary-btn" onclick="sendNum('2')">2</button>
+                    <button class="primary-btn op-btn" onclick="sendNum('+')">+</button>
+                </div>
+                <div class="grid-3">
+                    <button class="primary-btn" onclick="sendNum('3')">3</button>
+                    <button class="primary-btn" onclick="sendNum('4')">4</button>
+                    <button class="primary-btn" onclick="sendNum('5')">5</button>
+                    <button class="primary-btn op-btn" onclick="sendNum('-')">-</button>
+                </div>
+                <div class="grid-6">
+                    <button class="primary-btn" onclick="sendNum('6')">6</button>
+                    <button class="primary-btn" onclick="sendNum('7')">7</button>
+                    <button class="primary-btn" onclick="sendNum('8')">8</button>
+                    <button class="primary-btn op-btn" onclick="sendNum('*')">*</button>
+                </div>
+                <div class="grid-9">
+                    <button class="primary-btn" onclick="sendNum('9')">9</button>
+                    <button class="primary-btn clr-btn" onclick="clrBtn()">c</button>
+                    <button class="primary-btn op-btn" onclick="equalTo()">=</button>
+                    <button class="primary-btn op-btn" onclick="sendNum('/')">/</button>
+                </div>
+                <!-- CalculatorKeypad - Ends -->
+            </div>
+        </div>
+    </div>
+</body>
+</html>

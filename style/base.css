@@ -1,0 +1,20 @@
+/* 
+*
+* base.css
+* author - Jamal
+* date - 12 octobar 2022
+*/
+
+body {
+    background-color: #9C58B7;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: lighter;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+}
+.title {
+    text-align: center;
+    color: #fff;
+}
